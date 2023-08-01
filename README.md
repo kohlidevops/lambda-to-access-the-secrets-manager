@@ -13,6 +13,7 @@ Provide the meaning ful secrets manager name
 **Step-2: To create a IAM role for Lambda to access the secrets manager**
 
 Create IAM policy for secrets manager Read only access with secret ARN
+
 Create IAM Role for Lambda function and associate the secret manager Read Only policy and Lambda basic execution policy
 
 <img width="724" alt="sm3" src="https://github.com/kohlidevops/lambda-to-access-the-secrets-manager/assets/100069489/0daf394c-8dd1-4c3e-8687-0b27ad58088c">
@@ -20,6 +21,7 @@ Create IAM Role for Lambda function and associate the secret manager Read Only p
 **Step-3: To create a Lambda Function**
 
 Create Lambda Function (Python-3.10) and associate the newly created IAM role
+
 Deploy code using below link and save & test it
 
 https://github.com/kohlidevops/lambda-to-access-the-secrets-manager/blob/main/lambda-python-code
